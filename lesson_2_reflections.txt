@@ -11,10 +11,19 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Add only those files to the staging area, changes in which are logically similar.
+	Then commit those changes.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When we add some new features, which we are unsure of, we should do that on a separate branch, and later merge. 
+	We can work on different features on different branches. 
+	Master branch should always work, never break.
 
 How do the diagrams help you visualize the branch structure?
+
+	We get to know what all changes are in what part of the thread. Like, what soecific changes are in what branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
